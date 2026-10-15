@@ -1,0 +1,7 @@
+{
+  "name": "gojags/api-gojags",
+  "description": "API data batch dan peserta pelatihan Gojags",
+  "type": "project",
+  "require": { "php": "^8.3", "ext-pdo": "*", "ext-pdo_sqlite": "*" },
+  "scripts": { "setup": "php bin/setup.php", "dev": "php -S 127.0.0.1:8001 -t public public/index.php" }
+}
